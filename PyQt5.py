@@ -12,7 +12,7 @@ class Window(QMainWindow):
  
 		self.setGeometry(100, 100, 800, 600) 
 
-		self.setWindowIcon(QtGui.QIcon('C:/Users/Lenovo/Downloads/pngegg.png'))
+		self.setWindowIcon(QtGui.QIcon('Icon.png'))
 
 		self.image = QImage(self.size(), QImage.Format_RGB32) 
 
